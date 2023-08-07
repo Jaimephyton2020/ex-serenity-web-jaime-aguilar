@@ -16,7 +16,7 @@ Clonar el proyecto
 Para correr el proyecto de manera local se debe realizar los siguientes pasos:
 1. Definir la tag de los tipos de tests que se van a ejecutar, esto lo hacemos en el archivo WebRunnerTest, para el ejemplo se va a correr todos los test menos los manuales, api y las pruebas móviles. Se correra los test de aplicaciones web.
 ```
-tags = "not @karate and not @ManualTest and not @Mobiletest"
+tags = "@FlujoCompra"
 ```
 
 2. Definir el driver a usarse en serenity.properties y comentar la elección del driver mediante variables de entorno. Para el ejemplo vamos a correr pruebas de una aplicación web por lo tanto vamos a seleccionar el driver de chrome
@@ -33,7 +33,7 @@ webdriver.driver=chrome
 
      
 	 1. Importar el proyecto desde IntelliJ IDE bajo la estructura de un proyecto Gradle existente
-	 2. Configurar JRE System Library con JavaSE-1.8
+	 2. Configurar JRE System Library con JavaSE
 	 3. Configurar la codificación a UTF-8 al proyecto una vez sea importado
      4. Una vez importado el proyecto se puede ejecutar la clase WebRunnerTest desde el IDE
 
