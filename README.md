@@ -62,8 +62,6 @@ La automatización fue desarrollada con:
 * Serenity BDD - Biblioteca de código abierto para la generación de reportes
 * Gherkin - Lenguaje Business Readable DSL (Lenguaje especifico de dominio legible por el negocio)
 
-## Documentacion
 
-[Manual SerenityBDD](https://pichincha.atlassian.net/wiki/spaces/CS/pages/2440757667/Manual+Arquetipo+SerenityBDD+ScreenPlay)
 
 
