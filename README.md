@@ -62,6 +62,10 @@ La automatización fue desarrollada con:
 * Serenity BDD - Biblioteca de código abierto para la generación de reportes
 * Gherkin - Lenguaje Business Readable DSL (Lenguaje especifico de dominio legible por el negocio)
 
+Reporte Ejecución Exitosa:
+
+file:///C:/Users/Jaime/Documents/Portafolio/sqa-aut-arq-serenitybdd_UV/target/site/serenity/668be05f1d3399f390d2eec94f120b421a0f08ce8738c54c4b5a3d2aca2d1f40_screenshots.html#screenshots
+
 
 
 
