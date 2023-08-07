@@ -27,7 +27,7 @@ public class ControlsExecutionParallelAgents {
         String totalAgentes = environmentConfig.getVariable("SYSTEM_TOTALJOBSINPHASE");
         String agenteNum = environmentConfig.getVariable("SYSTEM_JOBPOSITIONINPHASE");
         log.info("=====> Total Agentes: '" + totalAgentes + "' | Agente Num: '" + agenteNum + "'");
-        allFeatures = FeatureOverwrite.listFilesByFolder(FEATURE_NAME, new File(PathConstants.featurePath()));
+        //allFeatures = FeatureOverwrite.listFilesByFolder(FEATURE_NAME, new File(PathConstants.featurePath()));
 
         if (valitateParalelExcecution(totalAgentes)) {
             List<String> pathsFeatureToRemove = getPathsFeatureToRemove(agenteNum);
@@ -37,7 +37,7 @@ public class ControlsExecutionParallelAgents {
             }
             removeFeatures(pathsFeatureToRemove);
         }
-        FeatureOverwrite.clearListFilesByFolder();
+        //FeatureOverwrite.clearListFilesByFolder();
     }
 
     private static boolean valitateParalelExcecution(String totalAgentes) {
