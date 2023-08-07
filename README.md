@@ -34,8 +34,7 @@ webdriver.driver=chrome
      
 	 1. Importar el proyecto desde IntelliJ IDE bajo la estructura de un proyecto Gradle existente
 	 2. Configurar JRE System Library con JavaSE
-	 3. Configurar la codificación a UTF-8 al proyecto una vez sea importado
-     4. Una vez importado el proyecto se puede ejecutar la clase WebRunnerTest desde el IDE
+     3. Una vez importado el proyecto se puede ejecutar la clase WebRunnerTest desde el IDE
 
 ### Comandos E2E
 
